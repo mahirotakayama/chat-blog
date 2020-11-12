@@ -1,11 +1,11 @@
 body{
-  background-color: #f6f6f6;
+  background-color: #FFFF88;
   min-width: 650px;
   .header{
     height: 56px;
     width: 100%;
     padding: 0 150px;
-    background-color: #55c500;
+    background-color: #2C7CFF;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -28,9 +28,9 @@ body{
   }
   .contents{
     margin: 30px auto 0;
-    background-color: #fff;
+    background-color: #AEFFBD;
     height: 600px;
-    width: 70%;
+    width: 60%;
     overflow: scroll;
     .content{
       padding: 10px;
@@ -99,7 +99,7 @@ body{
       &__edit{
         display: block;
         border-radius: 5px;
-        color: #ffffff;
+        color: #FF0000;
         background-color:#55c500;
         padding: 0 10px;
         text-decoration: none;
@@ -108,7 +108,7 @@ body{
       &__delete{
         display: block;
         border-radius: 5px;
-        color: #ffffff;
+        color: #FF0000;
         background-color:#55c500;
         padding: 0 10px;
         text-decoration: none;

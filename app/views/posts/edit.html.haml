@@ -4,8 +4,8 @@
   = form.text_field :title, placeholder: :タイトル, class: :form__title
   = form.text_area :content, placeholder: :ブログ本文, class: :form__text
   .form__mask
-    = form.label :image, class: 'form__btn__mask__image' do
-      = icon('fas', 'image', class: 'icon')
-    = form.submit '投稿する', class: :form__btn
+  = form.label :image, class: 'form__btn__mask__image' do
+    = icon('fas', 'image', class: 'icon')
+  = form.submit '投稿する', class: :form__btn
   -# = form.label :image, class: 'form__btn__mask__image' do
   -#   = icon('fas', 'image', class: 'icon')
